@@ -43,7 +43,7 @@ An MCP server that provides Claude with real-time system monitoring capabilities
 Clone this repository:
 
 ```bash
-git clone git@github.com:abhinav7895/mcp-system-resource-monitor.git
+git clone git@github.com:abhinav7895/system-mcp.git
 ```
 
 Navigate to the directory and install dependencies:

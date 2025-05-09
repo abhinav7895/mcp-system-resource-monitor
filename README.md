@@ -1,5 +1,7 @@
 # System Resource Monitor MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@abhinav7895/system-mcp)](https://smithery.ai/server/@abhinav7895/system-mcp)
+
 An MCP server that provides Claude with real-time system monitoring capabilities, including CPU, memory, disk, network, battery, and internet speed metrics using `systeminformation` and multi-source speed tests.
 
 ![Demo](assets/example-mcp.png)  
@@ -37,6 +39,14 @@ An MCP server that provides Claude with real-time system monitoring capabilities
   - **Output**: Text (e.g., `Internet Speed: Download 45.67Mbps, Upload 8.45Mbps`)
 
 ## Configuration
+
+### Installing via Smithery
+
+To install System Resource Monitor for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@abhinav7895/system-mcp):
+
+```bash
+npx -y @smithery/cli install @abhinav7895/system-mcp --client claude
+```
 
 ### Step 1: Clone and Install
 
